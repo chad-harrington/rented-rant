@@ -1,0 +1,36 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Colors
+@white: #fff;
+@gray-lightest: #f2f2f2;
+@gray-light: #ddd;
+@gray: #666;
+@gray-dark: #333;
+@blue: #25acd7;
+
+// Fonts/Text
+@font-size-base: 22px;
+@font-size-small: 14px;
+@font-weight-base: 400;
+@line-height-base: 1;
+@text-color: @gray-dark;
+
+@body-bg: @white;
+@link-color: @blue;
+@link-hover-color: @blue;
+@link-hover-decoration: none;
+
+// Media Queries - Breakpoints
+@screen-phone: 480px; // xs
+@screen-tablet: 768px; // sm
+@screen-desktop: 992px; // md
+@screen-lg-desktop: 1200px; // lg
+@screen-xlg-desktop: 1336px; // xlg
+
+// So media queries don't overlap when required, provide a maximum
+@screen-phone-max: (@screen-tablet - 1);
+@screen-tablet-max: (@screen-desktop - 1);
+@screen-desktop-max: (@screen-lg-desktop - 1);
+@screen-lg-desktop-max: (@screen-xlg-desktop - 1);

@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  color: #333333;
+  background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+  color: #25acd7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #25acd7;
+  text-decoration: none;
+}
+a:focus {
+  /* .tab-focus(); */
+}
+.h1 {
+  font-size: 50px;
+}
+.h2 {
+  font-size: 36px;
+}
+.h3 {
+  font-size: 30px;
+}
+.h4 {
+  font-size: 24px;
+}
+.h5 {
+  font-size: 22px;
+}
+.h6 {
+  font-size: 20px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
